@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D420C840E000C1D89B /* AppDelegate.swift */; };
-		C1C2B1D720C840E000C1D89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D620C840E000C1D89B /* ViewController.swift */; };
+		C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D620C840E000C1D89B /* StartViewController.swift */; };
 		C1C2B1DA20C840E000C1D89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B1D820C840E000C1D89B /* Main.storyboard */; };
 		C1C2B1DC20C840E200C1D89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B1DB20C840E200C1D89B /* Assets.xcassets */; };
 		C1C2B1DF20C840E200C1D89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B1DD20C840E200C1D89B /* LaunchScreen.storyboard */; };
 		C1C2B1EA20C840E200C1D89B /* MathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1E920C840E200C1D89B /* MathsTests.swift */; };
 		C1C2B1F520C840E200C1D89B /* MathsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1F420C840E200C1D89B /* MathsUITests.swift */; };
+		C1C2B20320C8434900C1D89B /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20220C8434900C1D89B /* StartButton.swift */; };
+		C1C2B20520C844B900C1D89B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20420C844B900C1D89B /* CGFloat+Extensions.swift */; };
+		C1C2B20720C8477400C1D89B /* BasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20620C8477400C1D89B /* BasicsViewController.swift */; };
+		C1C2B20920C8479F00C1D89B /* BasicsItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */; };
+		C1C2B20B20C84AA700C1D89B /* BasicsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20A20C84AA700C1D89B /* BasicsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		C1C2B1D120C840E000C1D89B /* Maths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2B1D420C840E000C1D89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1C2B1D620C840E000C1D89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1C2B1D620C840E000C1D89B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C1C2B1D920C840E000C1D89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1C2B1DB20C840E200C1D89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1C2B1DE20C840E200C1D89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		C1C2B1F020C840E200C1D89B /* MathsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2B1F420C840E200C1D89B /* MathsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsUITests.swift; sourceTree = "<group>"; };
 		C1C2B1F620C840E200C1D89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2B20220C8434900C1D89B /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		C1C2B20420C844B900C1D89B /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		C1C2B20620C8477400C1D89B /* BasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsViewController.swift; sourceTree = "<group>"; };
+		C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsItemStore.swift; sourceTree = "<group>"; };
+		C1C2B20A20C84AA700C1D89B /* BasicsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 		C1C2B1D320C840E000C1D89B /* Maths */ = {
 			isa = PBXGroup;
 			children = (
+				C1C2B20420C844B900C1D89B /* CGFloat+Extensions.swift */,
 				C1C2B1D420C840E000C1D89B /* AppDelegate.swift */,
-				C1C2B1D620C840E000C1D89B /* ViewController.swift */,
+				C1C2B1D620C840E000C1D89B /* StartViewController.swift */,
+				C1C2B20620C8477400C1D89B /* BasicsViewController.swift */,
+				C1C2B20A20C84AA700C1D89B /* BasicsDetailViewController.swift */,
+				C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */,
+				C1C2B20220C8434900C1D89B /* StartButton.swift */,
 				C1C2B1D820C840E000C1D89B /* Main.storyboard */,
 				C1C2B1DB20C840E200C1D89B /* Assets.xcassets */,
 				C1C2B1DD20C840E200C1D89B /* LaunchScreen.storyboard */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C2B1D720C840E000C1D89B /* ViewController.swift in Sources */,
+				C1C2B20B20C84AA700C1D89B /* BasicsDetailViewController.swift in Sources */,
+				C1C2B20320C8434900C1D89B /* StartButton.swift in Sources */,
+				C1C2B20920C8479F00C1D89B /* BasicsItemStore.swift in Sources */,
+				C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */,
+				C1C2B20520C844B900C1D89B /* CGFloat+Extensions.swift in Sources */,
 				C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */,
+				C1C2B20720C8477400C1D89B /* BasicsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
