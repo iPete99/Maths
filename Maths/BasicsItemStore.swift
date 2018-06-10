@@ -14,4 +14,13 @@ struct BasicsItemStore {
         1: "Log Rules",
         2: "Trigonometry"
     ]
+    
+    // the number of components in rows and segues must be equal!
+    // every component of segues must be used as a segue identifier in the IB!
+    
+    let segues = [
+        0: "showExponentRules",
+        1: "showLogRules",
+        2: "showTrigonometry"
+    ]
 }

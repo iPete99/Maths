@@ -9,7 +9,7 @@
 import UIKit
 
 
-class BasicDetailViewController: UIViewController {
+class ExponentRulesViewController: UIViewController {
     @IBOutlet var testLabel: UILabel!
     
     override func viewDidLoad() {
