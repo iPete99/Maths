@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A79195CD3DB7BFADF9DD9CE /* Pods_Maths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */; };
+		C1A299B520D52578007CE71C /* BasicsExponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A299B420D52578007CE71C /* BasicsExponentModel.swift */; };
 		C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D420C840E000C1D89B /* AppDelegate.swift */; };
 		C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D620C840E000C1D89B /* StartViewController.swift */; };
 		C1C2B1DA20C840E000C1D89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B1D820C840E000C1D89B /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A299B420D52578007CE71C /* BasicsExponentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsExponentModel.swift; sourceTree = "<group>"; };
 		C1C2B1D120C840E000C1D89B /* Maths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2B1D420C840E000C1D89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C2B1D620C840E000C1D89B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		C1C2B20A20C84AA700C1D89B /* ExponentRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentRulesViewController.swift; sourceTree = "<group>"; };
 		C1C2B24F20CD441800C1D89B /* LogRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRulesViewController.swift; sourceTree = "<group>"; };
 		C1C2B25120CD70A400C1D89B /* TrigonometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigonometryViewController.swift; sourceTree = "<group>"; };
+		DB6375EDC89B85F76B62F3F2 /* Pods-Maths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maths.release.xcconfig"; path = "Pods/Target Support Files/Pods-Maths/Pods-Maths.release.xcconfig"; sourceTree = "<group>"; };
+		FBC0D0395E89C39B527E7616 /* Pods-Maths.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maths.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Maths/Pods-Maths.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A79195CD3DB7BFADF9DD9CE /* Pods_Maths.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46A96EF1BF2AD8D108947086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBC0D0395E89C39B527E7616 /* Pods-Maths.debug.xcconfig */,
+				DB6375EDC89B85F76B62F3F2 /* Pods-Maths.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49EEB4F0E97C8814E54E5D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1C2B1C820C840E000C1D89B = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +119,8 @@
 				C1C2B1E820C840E200C1D89B /* MathsTests */,
 				C1C2B1F320C840E200C1D89B /* MathsUITests */,
 				C1C2B1D220C840E000C1D89B /* Products */,
+				46A96EF1BF2AD8D108947086 /* Pods */,
+				49EEB4F0E97C8814E54E5D37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +145,7 @@
 				C1C2B24F20CD441800C1D89B /* LogRulesViewController.swift */,
 				C1C2B25120CD70A400C1D89B /* TrigonometryViewController.swift */,
 				C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */,
+				C1A299B420D52578007CE71C /* BasicsExponentModel.swift */,
 				C1C2B20220C8434900C1D89B /* StartButton.swift */,
 				C1C2B1D820C840E000C1D89B /* Main.storyboard */,
 				C1C2B1DB20C840E200C1D89B /* Assets.xcassets */,
@@ -153,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1C2B1F920C840E200C1D89B /* Build configuration list for PBXNativeTarget "Maths" */;
 			buildPhases = (
+				36EC1DC82121CF8401160417 /* [CP] Check Pods Manifest.lock */,
 				C1C2B1CD20C840E000C1D89B /* Sources */,
 				C1C2B1CE20C840E000C1D89B /* Frameworks */,
 				C1C2B1CF20C840E000C1D89B /* Resources */,
+				A1F8AE7E1667B2901A940DD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +301,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36EC1DC82121CF8401160417 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Maths-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F8AE7E1667B2901A940DD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Maths/Pods-Maths-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maths/Pods-Maths-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1C2B1CD20C840E000C1D89B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -282,6 +350,7 @@
 				C1C2B20920C8479F00C1D89B /* BasicsItemStore.swift in Sources */,
 				C1C2B25020CD441800C1D89B /* LogRulesViewController.swift in Sources */,
 				C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */,
+				C1A299B520D52578007CE71C /* BasicsExponentModel.swift in Sources */,
 				C1C2B25220CD70A400C1D89B /* TrigonometryViewController.swift in Sources */,
 				C1C2B20520C844B900C1D89B /* CGFloat+Extensions.swift in Sources */,
 				C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */,
@@ -456,6 +525,7 @@
 		};
 		C1C2B1FA20C840E200C1D89B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC0D0395E89C39B527E7616 /* Pods-Maths.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +544,7 @@
 		};
 		C1C2B1FB20C840E200C1D89B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6375EDC89B85F76B62F3F2 /* Pods-Maths.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

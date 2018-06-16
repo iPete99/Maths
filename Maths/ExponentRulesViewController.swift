@@ -7,13 +7,30 @@
 //
 
 import UIKit
+import iosMath
 
 
-class ExponentRulesViewController: UIViewController {
-    @IBOutlet var testLabel: UILabel!
+class ExponentRulesViewController: UIViewController{
+    
+    let exponentModel = ExponentLabel()
+    
+    @IBOutlet var label0: UILabel!
+    @IBOutlet var formula0: MTMathUILabel!
+    @IBOutlet var label1: UILabel!
+    @IBOutlet var formula1: MTMathUILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.label0.text = self.exponentModel.descriptionLabels[0]
+        self.label1.text = self.exponentModel.descriptionLabels[1]
+        
+        self.formula0.latex = self.exponentModel.formulaLabels[0]
+        self.formula0.textAlignment = .center
+        self.formula0.sizeToFit()
+        self.formula1.latex = self.exponentModel.formulaLabels[1]
+        self.formula1.textAlignment = .center
+        self.formula1.sizeToFit()
     }
 }
