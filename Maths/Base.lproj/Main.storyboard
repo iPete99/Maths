@@ -157,24 +157,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0i-Q2-gbw">
-                                <rect key="frame" x="173" y="323" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unit_circle_angles_color" translatesAutoresizingMaskIntoConstraints="NO" id="wZS-z8-nOx">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kJS-st-X80">
+                                <rect key="frame" x="8" y="72" width="359" height="587"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UAI-RD-Awm">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="285.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjC-Wi-kZF">
+                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="285.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-bK-pcc">
+                                                <rect key="frame" x="57.5" y="0.0" width="301.5" height="285.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YdE-Rk-a0i">
+                                        <rect key="frame" x="0.0" y="301.5" width="359" height="285.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLi-i9-Edv">
+                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="285.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8y-aQ-rre">
+                                                <rect key="frame" x="59.5" y="0.0" width="299.5" height="285.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wZS-z8-nOx" firstAttribute="top" secondItem="izR-f3-OQP" secondAttribute="top" id="8Wu-Vx-MPa"/>
+                            <constraint firstItem="wZS-z8-nOx" firstAttribute="leading" secondItem="izR-f3-OQP" secondAttribute="leading" id="G8I-Ye-34o"/>
+                            <constraint firstItem="kJS-st-X80" firstAttribute="top" secondItem="izR-f3-OQP" secondAttribute="top" constant="8" id="Uau-zC-mbf"/>
+                            <constraint firstItem="izR-f3-OQP" firstAttribute="trailing" secondItem="kJS-st-X80" secondAttribute="trailing" constant="8" id="Vjm-QU-xzF"/>
+                            <constraint firstItem="izR-f3-OQP" firstAttribute="trailing" secondItem="wZS-z8-nOx" secondAttribute="trailing" id="W7P-uP-Ew1"/>
+                            <constraint firstItem="izR-f3-OQP" firstAttribute="bottom" secondItem="wZS-z8-nOx" secondAttribute="bottom" id="bVS-kQ-fLF"/>
+                            <constraint firstItem="izR-f3-OQP" firstAttribute="bottom" secondItem="kJS-st-X80" secondAttribute="bottom" constant="8" id="cx2-wE-Rbq"/>
+                            <constraint firstItem="kJS-st-X80" firstAttribute="leading" secondItem="izR-f3-OQP" secondAttribute="leading" constant="8" id="fza-6U-33B"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="izR-f3-OQP"/>
                     </view>
-                    <connections>
-                        <outlet property="testLabel" destination="r0i-Q2-gbw" id="9Ko-mE-SVH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NL9-5X-XRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1486" y="-1374"/>
+            <point key="canvasLocation" x="1485.5999999999999" y="-1374.0629685157423"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SR8-nJ-1bk">
@@ -197,5 +239,6 @@
     </scenes>
     <resources>
         <image name="Normal_Distribution" width="2000" height="1500"/>
+        <image name="Unit_circle_angles_color" width="1024" height="1024"/>
     </resources>
 </document>

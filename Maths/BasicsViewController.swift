@@ -54,21 +54,11 @@ class BasicsViewController: UITableViewController {
         return 65
     }
     
-    // MARK: TEST: perform segue via TabeleViewVC, NOT via TableViewCell
+    // MARK: perform segue via TabeleViewVC, NOT via TableViewCell
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
         if let segue = self.basicItemStore.segues[indexPath.row] {
             self.performSegue(withIdentifier: segue, sender: self)
         }
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "showExponentRules" {
-//            let destinationVC = segue.destination as! ExponentRulesViewController
-//            destinationVC.title = self.basicItemStore.rows[0]
-//        } else if segue.identifier == "showLogRules" {
-//            let destinationVC = segue.destination as! LogRulesViewController
-//            destinationVC.title = self.basicItemStore.rows[1]
-//        }
-//    }
 }
