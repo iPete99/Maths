@@ -23,6 +23,8 @@ class ExponentRulesViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Exponent Rules"
+        
         self.label0.text = self.exponentModel.descriptionLabels[0]
         self.label1.text = self.exponentModel.descriptionLabels[1]
         
