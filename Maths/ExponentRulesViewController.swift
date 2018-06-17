@@ -14,10 +14,25 @@ class ExponentRulesViewController: UIViewController{
     
     let exponentModel = ExponentLabel()
     
+    // label outlets
     @IBOutlet var label0: UILabel!
-    @IBOutlet var formula0: MTMathUILabel!
     @IBOutlet var label1: UILabel!
+    @IBOutlet var label2: UILabel!
+    @IBOutlet var label3: UILabel!
+    @IBOutlet var label4: UILabel!
+    @IBOutlet var label5: UILabel!
+    @IBOutlet var label6: UILabel!
+    @IBOutlet var label7: UILabel!
+    
+    // formula outlets
+    @IBOutlet var formula0: MTMathUILabel!
     @IBOutlet var formula1: MTMathUILabel!
+    @IBOutlet var formula2: MTMathUILabel!
+    @IBOutlet var formula3: MTMathUILabel!
+    @IBOutlet var formula4: MTMathUILabel!
+    @IBOutlet var formula5: MTMathUILabel!
+    @IBOutlet var formula6: MTMathUILabel!
+    @IBOutlet var formula7: MTMathUILabel!
     
     
     override func viewDidLoad() {
@@ -25,14 +40,25 @@ class ExponentRulesViewController: UIViewController{
         
         self.title = "Exponent Rules"
         
-        self.label0.text = self.exponentModel.descriptionLabels[0]
-        self.label1.text = self.exponentModel.descriptionLabels[1]
+        self.label0.layer.borderColor = UIColor.black.cgColor
+        self.label0.layer.borderWidth = 1
         
-        self.formula0.latex = self.exponentModel.formulaLabels[0]
-        self.formula0.textAlignment = .center
-        self.formula0.sizeToFit()
-        self.formula1.latex = self.exponentModel.formulaLabels[1]
-        self.formula1.textAlignment = .center
-        self.formula1.sizeToFit()
+        let labels = [self.label0, self.label1, self.label2,
+                      self.label3, self.label4, self.label5,
+                      self.label6, self.label7
+        ]
+        for i in 0...labels.count - 1 {
+            labels[i]?.text = self.exponentModel.descriptionLabels[i]
+        }
+        
+        let formulas = [self.formula0, self.formula1, self.formula2,
+                        self.formula3, self.formula4, self.formula5,
+                        self.formula6, self.formula7
+        ]
+        for i in 0...formulas.count - 1 {
+            formulas[i]?.latex = self.exponentModel.formulaLabels[i]
+            formulas[i]?.textAlignment = .left
+            formulas[i]?.sizeToFit()
+        }
     }
 }

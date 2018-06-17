@@ -163,34 +163,136 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kJS-st-X80">
                                 <rect key="frame" x="8" y="72" width="359" height="587"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UAI-RD-Awm">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="285.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UAI-RD-Awm">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="59.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjC-Wi-kZF">
-                                                <rect key="frame" x="0.0" y="0.0" width="52" height="285.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-bK-pcc" customClass="MTMathUILabel">
-                                                <rect key="frame" x="57.5" y="0.0" width="301.5" height="285.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWF-bK-pcc" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YdE-Rk-a0i">
-                                        <rect key="frame" x="0.0" y="301.5" width="359" height="285.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YdE-Rk-a0i">
+                                        <rect key="frame" x="0.0" y="75.5" width="359" height="59.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLi-i9-Edv">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="285.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8y-aQ-rre" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8y-aQ-rre" customClass="MTMathUILabel">
-                                                <rect key="frame" x="59.5" y="0.0" width="299.5" height="285.5"/>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hhC-Vc-Eb0">
+                                        <rect key="frame" x="0.0" y="151" width="359" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bt3-bz-BIY">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7y-fc-QTq" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hck-Yd-9GE">
+                                        <rect key="frame" x="0.0" y="226" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-IL-tTy">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aI0-0h-Dhs" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Zg2-bv-nXa">
+                                        <rect key="frame" x="0.0" y="301.5" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blm-bQ-FQF">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bae-LN-Goi" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hTW-D3-WLO">
+                                        <rect key="frame" x="0.0" y="377" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jg-MM-J1G">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vw2-pm-6u2" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2qN-qa-IZy">
+                                        <rect key="frame" x="0.0" y="452.5" width="359" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7o-pY-aPa">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oum-6M-X09" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="axC-Gu-P5V">
+                                        <rect key="frame" x="0.0" y="527.5" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqL-q6-jiW">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5y-F7-GNg" customClass="MTMathUILabel">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -198,6 +300,15 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="V7o-pY-aPa" firstAttribute="trailing" secondItem="0jg-MM-J1G" secondAttribute="trailing" id="FTU-1s-Bpy"/>
+                                    <constraint firstItem="blm-bQ-FQF" firstAttribute="trailing" secondItem="7cn-IL-tTy" secondAttribute="trailing" id="MJP-6c-GKs"/>
+                                    <constraint firstItem="kqL-q6-jiW" firstAttribute="trailing" secondItem="V7o-pY-aPa" secondAttribute="trailing" id="Met-ut-nXT"/>
+                                    <constraint firstItem="0jg-MM-J1G" firstAttribute="trailing" secondItem="blm-bQ-FQF" secondAttribute="trailing" id="cki-59-7QA"/>
+                                    <constraint firstItem="7cn-IL-tTy" firstAttribute="trailing" secondItem="bt3-bz-BIY" secondAttribute="trailing" id="eP6-8z-ucX"/>
+                                    <constraint firstItem="bt3-bz-BIY" firstAttribute="trailing" secondItem="CLi-i9-Edv" secondAttribute="trailing" id="jJQ-mO-Jh1"/>
+                                    <constraint firstItem="ZjC-Wi-kZF" firstAttribute="trailing" secondItem="CLi-i9-Edv" secondAttribute="trailing" id="jz8-J1-nWZ"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,8 +327,20 @@
                     <connections>
                         <outlet property="formula0" destination="qWF-bK-pcc" id="BWq-JV-L6d"/>
                         <outlet property="formula1" destination="b8y-aQ-rre" id="Avv-Rk-e4J"/>
+                        <outlet property="formula2" destination="T7y-fc-QTq" id="KCS-ab-g3i"/>
+                        <outlet property="formula3" destination="aI0-0h-Dhs" id="UZo-I7-caf"/>
+                        <outlet property="formula4" destination="bae-LN-Goi" id="5bJ-Ny-vug"/>
+                        <outlet property="formula5" destination="Vw2-pm-6u2" id="C1T-tH-uIE"/>
+                        <outlet property="formula6" destination="Oum-6M-X09" id="bXc-dC-gbg"/>
+                        <outlet property="formula7" destination="C5y-F7-GNg" id="QC3-ew-ZLc"/>
                         <outlet property="label0" destination="ZjC-Wi-kZF" id="X6F-1c-gdx"/>
                         <outlet property="label1" destination="CLi-i9-Edv" id="H9D-HP-7Pe"/>
+                        <outlet property="label2" destination="bt3-bz-BIY" id="xdc-8u-nYq"/>
+                        <outlet property="label3" destination="7cn-IL-tTy" id="jJ0-fS-dKp"/>
+                        <outlet property="label4" destination="blm-bQ-FQF" id="QBC-0M-vek"/>
+                        <outlet property="label5" destination="0jg-MM-J1G" id="3oM-Sr-q9Z"/>
+                        <outlet property="label6" destination="V7o-pY-aPa" id="f7l-T0-NuS"/>
+                        <outlet property="label7" destination="kqL-q6-jiW" id="9za-HL-brp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NL9-5X-XRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
