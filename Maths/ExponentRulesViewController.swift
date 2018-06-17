@@ -25,15 +25,18 @@ class ExponentRulesViewController: UIViewController{
     @IBOutlet var label7: UILabel!
     
     // formula outlets
-    @IBOutlet var formula0: MTMathUILabel!
-    @IBOutlet var formula1: MTMathUILabel!
-    @IBOutlet var formula2: MTMathUILabel!
-    @IBOutlet var formula3: MTMathUILabel!
-    @IBOutlet var formula4: MTMathUILabel!
-    @IBOutlet var formula5: MTMathUILabel!
-    @IBOutlet var formula6: MTMathUILabel!
-    @IBOutlet var formula7: MTMathUILabel!
+    @IBOutlet var formula0: MathLabel!
+    @IBOutlet var formula1: MathLabel!
+    @IBOutlet var formula2: MathLabel!
+    @IBOutlet var formula3: MathLabel!
+    @IBOutlet var formula4: MathLabel!
+    @IBOutlet var formula5: MathLabel!
+    @IBOutlet var formula6: MathLabel!
+    @IBOutlet var formula7: MathLabel!
     
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,8 +60,8 @@ class ExponentRulesViewController: UIViewController{
         ]
         for i in 0...formulas.count - 1 {
             formulas[i]?.latex = self.exponentModel.formulaLabels[i]
-            formulas[i]?.textAlignment = .left
-            formulas[i]?.sizeToFit()
+//            formulas[i]?.textAlignment = .left
+//            formulas[i]?.sizeToFit()
         }
     }
 }

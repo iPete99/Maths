@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A79195CD3DB7BFADF9DD9CE /* Pods_Maths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */; };
 		C1A299B520D52578007CE71C /* BasicsExponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A299B420D52578007CE71C /* BasicsExponentModel.swift */; };
+		C1AF458420D69048000CE1E4 /* MathLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF458320D69048000CE1E4 /* MathLabel.swift */; };
 		C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D420C840E000C1D89B /* AppDelegate.swift */; };
 		C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B1D620C840E000C1D89B /* StartViewController.swift */; };
 		C1C2B1DA20C840E000C1D89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2B1D820C840E000C1D89B /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A299B420D52578007CE71C /* BasicsExponentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsExponentModel.swift; sourceTree = "<group>"; };
+		C1AF458320D69048000CE1E4 /* MathLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLabel.swift; sourceTree = "<group>"; };
 		C1C2B1D120C840E000C1D89B /* Maths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2B1D420C840E000C1D89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C2B1D620C840E000C1D89B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				C1C2B25120CD70A400C1D89B /* TrigonometryViewController.swift */,
 				C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */,
 				C1A299B420D52578007CE71C /* BasicsExponentModel.swift */,
+				C1AF458320D69048000CE1E4 /* MathLabel.swift */,
 				C1C2B20220C8434900C1D89B /* StartButton.swift */,
 				C1C2B1D820C840E000C1D89B /* Main.storyboard */,
 				C1C2B1DB20C840E200C1D89B /* Assets.xcassets */,
@@ -351,6 +354,7 @@
 				C1C2B25020CD441800C1D89B /* LogRulesViewController.swift in Sources */,
 				C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */,
 				C1A299B520D52578007CE71C /* BasicsExponentModel.swift in Sources */,
+				C1AF458420D69048000CE1E4 /* MathLabel.swift in Sources */,
 				C1C2B25220CD70A400C1D89B /* TrigonometryViewController.swift in Sources */,
 				C1C2B20520C844B900C1D89B /* CGFloat+Extensions.swift in Sources */,
 				C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */,
