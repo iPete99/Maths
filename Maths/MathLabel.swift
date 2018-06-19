@@ -14,6 +14,7 @@ class MathLabel: MTMathUILabel {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        self.fontSize = 17
         self.sizeToFit()
         self.textAlignment = .left
     }

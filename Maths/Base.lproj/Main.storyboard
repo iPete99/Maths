@@ -109,17 +109,191 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtC-Ra-bLA">
-                                <rect key="frame" x="173" y="323" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.05000000074505806" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unit_circle_angles_color" translatesAutoresizingMaskIntoConstraints="NO" id="WHB-8r-SkJ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="bcl-fZ-uoE">
+                                <rect key="frame" x="8" y="72" width="359" height="587"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="AXQ-er-Sno">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fs-Qg-wks">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQ4-2i-WRC" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="L43-II-jeC">
+                                        <rect key="frame" x="0.0" y="75.5" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nr1-SC-YrD">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nO2-Bv-nKm" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sYJ-1b-Hnx">
+                                        <rect key="frame" x="0.0" y="151" width="359" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wv-3l-2sW">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfJ-yi-gDp" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="FvW-qZ-qUJ">
+                                        <rect key="frame" x="0.0" y="226" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cd-hx-ge7">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpO-Xk-0vF" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="g7y-vw-5uC">
+                                        <rect key="frame" x="0.0" y="301.5" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlk-he-tHE">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmZ-95-2bB" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="IHl-Gq-Dqn">
+                                        <rect key="frame" x="0.0" y="377" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeE-50-mXG">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuv-Hj-sES" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="OEt-uV-gQF">
+                                        <rect key="frame" x="0.0" y="452.5" width="359" height="59"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwc-b6-NvZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaV-oB-4hU" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="i2i-IR-Gbp">
+                                        <rect key="frame" x="0.0" y="527.5" width="359" height="59.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebz-ZE-hkj">
+                                                <rect key="frame" x="0.0" y="0.0" width="47" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Formula7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-N8-QTC" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="63" y="0.0" width="296" height="59.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2wv-3l-2sW" firstAttribute="trailing" secondItem="Nr1-SC-YrD" secondAttribute="trailing" id="Al7-AK-kz3"/>
+                                    <constraint firstItem="0cd-hx-ge7" firstAttribute="trailing" secondItem="2wv-3l-2sW" secondAttribute="trailing" id="Y78-29-KGC"/>
+                                    <constraint firstItem="AeE-50-mXG" firstAttribute="trailing" secondItem="mlk-he-tHE" secondAttribute="trailing" id="dRA-h2-EHm"/>
+                                    <constraint firstItem="ebz-ZE-hkj" firstAttribute="trailing" secondItem="Mwc-b6-NvZ" secondAttribute="trailing" id="eYW-ED-XJe"/>
+                                    <constraint firstItem="Mwc-b6-NvZ" firstAttribute="trailing" secondItem="AeE-50-mXG" secondAttribute="trailing" id="esl-f0-LwC"/>
+                                    <constraint firstItem="mlk-he-tHE" firstAttribute="trailing" secondItem="0cd-hx-ge7" secondAttribute="trailing" id="iru-Eu-t5J"/>
+                                    <constraint firstItem="7Fs-Qg-wks" firstAttribute="trailing" secondItem="Nr1-SC-YrD" secondAttribute="trailing" id="m7z-3B-eLf"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DXY-nD-yvm" firstAttribute="bottom" secondItem="bcl-fZ-uoE" secondAttribute="bottom" constant="8" id="59X-Ry-ybs"/>
+                            <constraint firstItem="WHB-8r-SkJ" firstAttribute="top" secondItem="DXY-nD-yvm" secondAttribute="top" id="E9E-ud-eki"/>
+                            <constraint firstItem="WHB-8r-SkJ" firstAttribute="trailing" secondItem="DXY-nD-yvm" secondAttribute="trailing" id="Maf-k0-h9X"/>
+                            <constraint firstItem="DXY-nD-yvm" firstAttribute="bottom" secondItem="WHB-8r-SkJ" secondAttribute="bottom" id="X4U-jH-uoM"/>
+                            <constraint firstItem="WHB-8r-SkJ" firstAttribute="leading" secondItem="DXY-nD-yvm" secondAttribute="leading" id="cYl-7Z-WxG"/>
+                            <constraint firstItem="bcl-fZ-uoE" firstAttribute="top" secondItem="DXY-nD-yvm" secondAttribute="top" constant="8" id="kIo-u9-bvq"/>
+                            <constraint firstItem="DXY-nD-yvm" firstAttribute="trailing" secondItem="bcl-fZ-uoE" secondAttribute="trailing" constant="8" id="m1P-hk-hmw"/>
+                            <constraint firstItem="bcl-fZ-uoE" firstAttribute="leading" secondItem="DXY-nD-yvm" secondAttribute="leading" constant="8" id="qct-o5-iA1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="DXY-nD-yvm"/>
                     </view>
+                    <connections>
+                        <outlet property="formula0" destination="jQ4-2i-WRC" id="ff8-BY-ybT"/>
+                        <outlet property="formula1" destination="nO2-Bv-nKm" id="u3T-t0-Cho"/>
+                        <outlet property="formula2" destination="lfJ-yi-gDp" id="HSU-PY-qds"/>
+                        <outlet property="formula3" destination="YpO-Xk-0vF" id="Qqa-ES-JjQ"/>
+                        <outlet property="formula4" destination="lmZ-95-2bB" id="UAY-gO-sMv"/>
+                        <outlet property="formula5" destination="uuv-Hj-sES" id="Oxb-j4-0Lx"/>
+                        <outlet property="formula6" destination="iaV-oB-4hU" id="6gS-sy-QsD"/>
+                        <outlet property="formula7" destination="zDV-N8-QTC" id="jDZ-vo-37Z"/>
+                        <outlet property="label0" destination="7Fs-Qg-wks" id="2hG-i6-Irj"/>
+                        <outlet property="label1" destination="Nr1-SC-YrD" id="N32-iD-AGV"/>
+                        <outlet property="label2" destination="2wv-3l-2sW" id="al6-FB-brw"/>
+                        <outlet property="label3" destination="0cd-hx-ge7" id="AMl-DG-bUG"/>
+                        <outlet property="label4" destination="mlk-he-tHE" id="ele-Qk-iTS"/>
+                        <outlet property="label5" destination="AeE-50-mXG" id="dkA-u2-DS2"/>
+                        <outlet property="label6" destination="Mwc-b6-NvZ" id="foY-o4-omQ"/>
+                        <outlet property="label7" destination="ebz-ZE-hkj" id="kl9-mx-X7Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J42-C0-DsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

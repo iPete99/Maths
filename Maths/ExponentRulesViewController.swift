@@ -34,10 +34,6 @@ class ExponentRulesViewController: UIViewController{
     @IBOutlet var formula6: MathLabel!
     @IBOutlet var formula7: MathLabel!
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)!
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -60,8 +56,6 @@ class ExponentRulesViewController: UIViewController{
         ]
         for i in 0...formulas.count - 1 {
             formulas[i]?.latex = self.exponentModel.formulaLabels[i]
-//            formulas[i]?.textAlignment = .left
-//            formulas[i]?.sizeToFit()
         }
     }
 }
