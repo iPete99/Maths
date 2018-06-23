@@ -39,23 +39,21 @@ class ExponentRulesViewController: UIViewController{
         
         self.title = "Exponent Rules"
         
-        self.label0.layer.borderColor = UIColor.black.cgColor
-        self.label0.layer.borderWidth = 1
-        
+        self.label0.font.withSize(10)
+
         let labels = [self.label0, self.label1, self.label2,
                       self.label3, self.label4, self.label5,
                       self.label6, self.label7
         ]
-        for i in 0...labels.count - 1 {
-            labels[i]?.text = self.exponentModel.descriptionLabels[i]
-        }
-        
         let formulas = [self.formula0, self.formula1, self.formula2,
                         self.formula3, self.formula4, self.formula5,
                         self.formula6, self.formula7
         ]
-        for i in 0...formulas.count - 1 {
-            formulas[i]?.latex = self.exponentModel.formulaLabels[i]
-        }
+        let descriptionLabels = self.exponentModel.descriptionLabels
+        let formulaLabels = self.exponentModel.formulaLabels
+        
+        self.customizeBasicsLabels(labels, formulas: formulas,
+                                   descriptionLabels: descriptionLabels,
+                                   formulaLabels: formulaLabels)
     }
 }

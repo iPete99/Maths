@@ -9,14 +9,20 @@
 import UIKit
 import iosMath
 
+struct GeneralSettings {
+    
+    static let descriptionLabelFontSize: CGFloat = 17
+    static let descriptionLabelFontName = "Noteworthy"
+}
+
 struct ExponentLabel {
     
     let descriptionLabels = [
         0: "Multiplication",
         1: "Division",
-        2: "Power of power",
-        3: "Power of product",
-        4: "Power of fraction",
+        2: "Power of Power",
+        3: "Power of Product",
+        4: "Power of Fraction",
         5: "Fractional",
         6: "Negative",
         7: "Zero"
