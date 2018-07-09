@@ -24,7 +24,7 @@
 		C1C2B20920C8479F00C1D89B /* BasicsItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */; };
 		C1C2B20B20C84AA700C1D89B /* ExponentRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B20A20C84AA700C1D89B /* ExponentRulesViewController.swift */; };
 		C1C2B25020CD441800C1D89B /* LogRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B24F20CD441800C1D89B /* LogRulesViewController.swift */; };
-		C1C2B25220CD70A400C1D89B /* TrigonometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B25120CD70A400C1D89B /* TrigonometryViewController.swift */; };
+		C1C2B25220CD70A400C1D89B /* BinomialCoefficientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2B25120CD70A400C1D89B /* BinomialCoefficientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsItemStore.swift; sourceTree = "<group>"; };
 		C1C2B20A20C84AA700C1D89B /* ExponentRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExponentRulesViewController.swift; sourceTree = "<group>"; };
 		C1C2B24F20CD441800C1D89B /* LogRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRulesViewController.swift; sourceTree = "<group>"; };
-		C1C2B25120CD70A400C1D89B /* TrigonometryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigonometryViewController.swift; sourceTree = "<group>"; };
+		C1C2B25120CD70A400C1D89B /* BinomialCoefficientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinomialCoefficientViewController.swift; sourceTree = "<group>"; };
 		DB6375EDC89B85F76B62F3F2 /* Pods-Maths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maths.release.xcconfig"; path = "Pods/Target Support Files/Pods-Maths/Pods-Maths.release.xcconfig"; sourceTree = "<group>"; };
 		FBC0D0395E89C39B527E7616 /* Pods-Maths.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maths.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Maths/Pods-Maths.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,7 +148,7 @@
 				C1C2B20620C8477400C1D89B /* BasicsViewController.swift */,
 				C1C2B20A20C84AA700C1D89B /* ExponentRulesViewController.swift */,
 				C1C2B24F20CD441800C1D89B /* LogRulesViewController.swift */,
-				C1C2B25120CD70A400C1D89B /* TrigonometryViewController.swift */,
+				C1C2B25120CD70A400C1D89B /* BinomialCoefficientViewController.swift */,
 				C1C2B20820C8479F00C1D89B /* BasicsItemStore.swift */,
 				C1A299B420D52578007CE71C /* BasicsModel.swift */,
 				C1AF458320D69048000CE1E4 /* MathLabel.swift */,
@@ -358,7 +358,7 @@
 				C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */,
 				C1A299B520D52578007CE71C /* BasicsModel.swift in Sources */,
 				C1AF458420D69048000CE1E4 /* MathLabel.swift in Sources */,
-				C1C2B25220CD70A400C1D89B /* TrigonometryViewController.swift in Sources */,
+				C1C2B25220CD70A400C1D89B /* BinomialCoefficientViewController.swift in Sources */,
 				C1AF458620DE9E50000CE1E4 /* UIViewControllerExtension.swift in Sources */,
 				C1C2B20520C844B900C1D89B /* CGFloat+Extensions.swift in Sources */,
 				C1C2B1D520C840E000C1D89B /* AppDelegate.swift in Sources */,

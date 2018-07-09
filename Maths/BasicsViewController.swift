@@ -20,7 +20,7 @@ class BasicsViewController: UITableViewController {
         self.title = "Basics"
         
         // background image
-        let backgroundImage = UIImage(named: "Unit_circle_angles_color")
+        let backgroundImage = UIImage(named: "Binomial_expansion_rotated")
         let backgroundImageView = UIImageView(image: backgroundImage)
         
         backgroundImageView.alpha = 0.05

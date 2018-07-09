@@ -12,7 +12,7 @@ struct BasicsItemStore {
     let rows = [
         0: "Exponent Rules",
         1: "Log Rules",
-        2: "Trigonometry"
+        2: "Binomial Coefficient"
     ]
     
     // the number of components in rows and segues must be equal!

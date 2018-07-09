@@ -64,3 +64,28 @@ struct LogLabel {
         7: "\\log_a(m) = \\frac{\\log_b(m)}{\\log_b(a)}"
     ]
 }
+
+struct BinomialCoefficientLabel {
+    
+    let descriptionMathLabels = [
+        0: "\\sin \\theta",
+        1: "\\cos \\theta",
+        2: "Power",
+        3: "Identity",
+        4: "Natural Log",
+        5: "Exponent of Log",
+        6: "Zero",
+        7: "Change of Base"
+    ]
+    
+    let formulaLabels = [
+        0: "\\log_a(m \\cdot n) = \\log_a(m) + \\log_a(n)",
+        1: "\\log_a{\\left(\\frac{m}{n}\\right)} = \\log_a(m) - \\log_a(n)",
+        2: "\\log_a{\\left(m^k\\right)} = k \\cdot \\log_a(m)",
+        3: "\\log_a(a) = 1",
+        4: "\\log_e(m) = \\ln(m), e^k = \\lim_{x\\to\\infty}\\left(1 + \\frac{k}{x}\\right)^x",
+        5: "a^{\\log_a{\\left(a^k\\right)}} = k",
+        6: "\\log_a(1) = 0",
+        7: "\\log_a(m) = \\frac{\\log_b(m)}{\\log_b(a)}"
+    ]
+}

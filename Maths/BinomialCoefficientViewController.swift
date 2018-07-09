@@ -1,5 +1,5 @@
 //
-//  LogRulesViewController.swift
+//  TrigonometryViewController.swift
 //  Maths
 //
 //  Created by Peter and Fuzzy on 10.06.18.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class LogRulesViewController: UIViewController {
+class BinomialCoefficientViewController: UIViewController {
     
-    let logModel = LogLabel()
+    let binomialCoefficientModel = BinomialCoefficientLabel()
     let basicItemStore = BasicsItemStore()
     
     // label outlets
@@ -36,7 +36,9 @@ class LogRulesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         self.title = self.basicItemStore.rows[1]
+         self.title = self.basicItemStore.rows[2]
+        
+        self.label0.font.withSize(10)
         
         let labels = [self.label0, self.label1, self.label2,
                       self.label3, self.label4, self.label5,
@@ -46,10 +48,10 @@ class LogRulesViewController: UIViewController {
                         self.formula3, self.formula4, self.formula5,
                         self.formula6, self.formula7
         ]
-        let descriptionLabels = self.logModel.descriptionLabels
-        let formulaLabels = self.logModel.formulaLabels
+        let descriptionMathLabels = self.binomialCoefficientModel.descriptionMathLabels
+        let formulaLabels = self.binomialCoefficientModel.formulaLabels
         
-        self.customizeDesprictionLabels(labels, descriptionLabels: descriptionLabels)
-        self.customizeFormulas(formulas, formulaLabels: formulaLabels)
+//        self.customizeFormulas(descriptionMathLabels, formulaLabels: formulaLabels)
+//        self.customizeFormulas(formulas, formulaLabels: formulaLabels)
     }
 }

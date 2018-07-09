@@ -13,6 +13,7 @@ import iosMath
 class ExponentRulesViewController: UIViewController{
     
     let exponentModel = ExponentLabel()
+    let basicItemStore = BasicsItemStore()
     
     // label outlets
     @IBOutlet var label0: UILabel!
@@ -37,7 +38,7 @@ class ExponentRulesViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Exponent Rules"
+        self.title = self.basicItemStore.rows[0]
         
         self.label0.font.withSize(10)
 
@@ -52,8 +53,7 @@ class ExponentRulesViewController: UIViewController{
         let descriptionLabels = self.exponentModel.descriptionLabels
         let formulaLabels = self.exponentModel.formulaLabels
         
-        self.customizeBasicsLabels(labels, formulas: formulas,
-                                   descriptionLabels: descriptionLabels,
-                                   formulaLabels: formulaLabels)
+        self.customizeDesprictionLabels(labels, descriptionLabels: descriptionLabels)
+        self.customizeFormulas(formulas, formulaLabels: formulaLabels)
     }
 }
