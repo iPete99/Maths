@@ -407,250 +407,189 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5yK-H9-sEd">
-                                <rect key="frame" x="8" y="8" width="359" height="651"/>
+                                <rect key="frame" x="8" y="72" width="359" height="587"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sdc-g5-zx3">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="67.5"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lCD-LU-w85">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="44.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-HA-lja">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="67.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uux-eo-CCm">
-                                                        <rect key="frame" x="0.0" y="0.0" width="46.5" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoL-Sg-iM4" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="62.5" y="0.0" width="72.5" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vf1-VE-nup">
+                                                <rect key="frame" x="0.0" y="0.0" width="52" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="PK1-HA-lja" firstAttribute="top" secondItem="Sdc-g5-zx3" secondAttribute="top" id="7A7-Jm-ZXb"/>
-                                            <constraint firstAttribute="bottom" secondItem="PK1-HA-lja" secondAttribute="bottom" id="HFH-JW-kBI"/>
-                                            <constraint firstAttribute="trailing" secondItem="PK1-HA-lja" secondAttribute="trailing" id="PbU-sB-oEH"/>
-                                            <constraint firstItem="PK1-HA-lja" firstAttribute="leading" secondItem="Sdc-g5-zx3" secondAttribute="leading" id="kpV-Vr-Zhd"/>
-                                            <constraint firstItem="PK1-HA-lja" firstAttribute="centerY" secondItem="Sdc-g5-zx3" secondAttribute="centerY" id="vqb-XH-r2C"/>
+                                            <constraint firstAttribute="bottom" secondItem="vf1-VE-nup" secondAttribute="bottom" id="8D6-ZR-6Cp"/>
+                                            <constraint firstItem="vf1-VE-nup" firstAttribute="top" secondItem="lCD-LU-w85" secondAttribute="top" id="AnF-dT-cPv"/>
+                                            <constraint firstItem="vf1-VE-nup" firstAttribute="leading" secondItem="lCD-LU-w85" secondAttribute="leading" id="Sfp-4i-191"/>
+                                            <constraint firstAttribute="trailing" secondItem="vf1-VE-nup" secondAttribute="trailing" id="ZqS-ZY-j3A"/>
+                                            <constraint firstItem="vf1-VE-nup" firstAttribute="centerY" secondItem="lCD-LU-w85" secondAttribute="centerY" id="a78-x1-zTZ"/>
                                         </constraints>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68U-yI-Q1i">
-                                        <rect key="frame" x="0.0" y="83.5" width="359" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="60.5" width="359" height="44"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="f4k-l8-10l">
-                                                <rect key="frame" x="0.0" y="0.0" width="131.5" height="67.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4K0-DD-UuO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="46.5" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuu-A0-EQu" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="62.5" y="0.0" width="69" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqq-Xy-YdQ" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="72.5" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="f4k-l8-10l" firstAttribute="top" secondItem="68U-yI-Q1i" secondAttribute="top" id="UGu-b9-07A"/>
-                                            <constraint firstAttribute="trailing" secondItem="f4k-l8-10l" secondAttribute="trailing" id="d93-5B-Ygp"/>
-                                            <constraint firstAttribute="bottom" secondItem="f4k-l8-10l" secondAttribute="bottom" id="jTa-0U-DR4"/>
-                                            <constraint firstItem="f4k-l8-10l" firstAttribute="leading" secondItem="68U-yI-Q1i" secondAttribute="leading" id="sis-kx-kcq"/>
-                                            <constraint firstItem="f4k-l8-10l" firstAttribute="centerY" secondItem="68U-yI-Q1i" secondAttribute="centerY" id="wtP-tt-mb8"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gqq-Xy-YdQ" secondAttribute="trailing" id="5Nq-oY-Tup"/>
+                                            <constraint firstItem="Gqq-Xy-YdQ" firstAttribute="top" secondItem="68U-yI-Q1i" secondAttribute="top" id="BGz-br-lrL"/>
+                                            <constraint firstItem="Gqq-Xy-YdQ" firstAttribute="centerY" secondItem="68U-yI-Q1i" secondAttribute="centerY" id="KYK-Al-D9A"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gqq-Xy-YdQ" secondAttribute="bottom" id="m8f-dQ-N8v"/>
+                                            <constraint firstItem="Gqq-Xy-YdQ" firstAttribute="leading" secondItem="68U-yI-Q1i" secondAttribute="leading" id="pWe-oh-TvA"/>
                                         </constraints>
                                     </scrollView>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ON-LM-woi">
-                                        <rect key="frame" x="0.0" y="167" width="359" height="67"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SHJ-7U-pkd">
+                                        <rect key="frame" x="0.0" y="120.5" width="359" height="44.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="wEG-Xj-ieF">
-                                                <rect key="frame" x="0.0" y="0.0" width="134.5" height="68.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kON-Fy-Fsw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="46.5" height="68.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWL-8e-Izm" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="62.5" y="0.0" width="72" height="68.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAX-lf-7uu">
+                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="wEG-Xj-ieF" firstAttribute="centerY" secondItem="4ON-LM-woi" secondAttribute="centerY" id="36I-51-Hu0"/>
-                                            <constraint firstItem="wEG-Xj-ieF" firstAttribute="top" secondItem="4ON-LM-woi" secondAttribute="top" id="LsO-ws-WLS"/>
-                                            <constraint firstAttribute="trailing" secondItem="wEG-Xj-ieF" secondAttribute="trailing" id="iha-dW-xVu"/>
-                                            <constraint firstAttribute="bottom" secondItem="wEG-Xj-ieF" secondAttribute="bottom" id="lxq-Cu-ttt"/>
-                                            <constraint firstItem="wEG-Xj-ieF" firstAttribute="leading" secondItem="4ON-LM-woi" secondAttribute="leading" id="xfe-21-meA"/>
+                                            <constraint firstItem="eAX-lf-7uu" firstAttribute="top" secondItem="SHJ-7U-pkd" secondAttribute="top" id="8AF-i7-PK7"/>
+                                            <constraint firstAttribute="trailing" secondItem="eAX-lf-7uu" secondAttribute="trailing" id="Ub5-gT-Sk6"/>
+                                            <constraint firstItem="eAX-lf-7uu" firstAttribute="centerY" secondItem="SHJ-7U-pkd" secondAttribute="centerY" id="b3L-bi-J5i"/>
+                                            <constraint firstAttribute="bottom" secondItem="eAX-lf-7uu" secondAttribute="bottom" id="dkh-3k-gh7"/>
+                                            <constraint firstItem="eAX-lf-7uu" firstAttribute="leading" secondItem="SHJ-7U-pkd" secondAttribute="leading" id="qNM-hR-2Pk"/>
                                         </constraints>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SgC-2Y-COX">
-                                        <rect key="frame" x="0.0" y="250" width="359" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="181" width="359" height="44"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="OOW-6O-UFB">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="68.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VJ-dY-j09">
-                                                        <rect key="frame" x="0.0" y="0.0" width="46.5" height="68.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDa-86-aeq" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="62.5" y="0.0" width="72.5" height="68.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Dt-6z-43z" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="69" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="OOW-6O-UFB" firstAttribute="centerY" secondItem="SgC-2Y-COX" secondAttribute="centerY" id="5Ca-Jm-Mh7"/>
-                                            <constraint firstItem="OOW-6O-UFB" firstAttribute="top" secondItem="SgC-2Y-COX" secondAttribute="top" id="J4y-3h-aIe"/>
-                                            <constraint firstAttribute="trailing" secondItem="OOW-6O-UFB" secondAttribute="trailing" id="g5G-VF-b4s"/>
-                                            <constraint firstItem="OOW-6O-UFB" firstAttribute="leading" secondItem="SgC-2Y-COX" secondAttribute="leading" id="gRO-GD-D4i"/>
-                                            <constraint firstAttribute="bottom" secondItem="OOW-6O-UFB" secondAttribute="bottom" id="q0T-Fg-ZmA"/>
+                                            <constraint firstItem="9Dt-6z-43z" firstAttribute="leading" secondItem="SgC-2Y-COX" secondAttribute="leading" id="6Gk-bL-Yt5"/>
+                                            <constraint firstItem="9Dt-6z-43z" firstAttribute="top" secondItem="SgC-2Y-COX" secondAttribute="top" id="MM4-4V-aoK"/>
+                                            <constraint firstAttribute="trailing" secondItem="9Dt-6z-43z" secondAttribute="trailing" id="U6I-pn-1EI"/>
+                                            <constraint firstItem="9Dt-6z-43z" firstAttribute="centerY" secondItem="SgC-2Y-COX" secondAttribute="centerY" id="iwT-Ql-6vX"/>
+                                            <constraint firstAttribute="bottom" secondItem="9Dt-6z-43z" secondAttribute="bottom" id="vRi-TB-OGN"/>
                                         </constraints>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ery-r8-fPr">
-                                        <rect key="frame" x="0.0" y="333.5" width="359" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="241" width="359" height="44.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="0hc-jF-i08">
-                                                <rect key="frame" x="0.0" y="0.0" width="136" height="68.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOC-On-201">
-                                                        <rect key="frame" x="0.0" y="0.0" width="47" height="68.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOg-Gu-drL" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="63" y="0.0" width="73" height="68.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U11-IK-9bk" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="0hc-jF-i08" secondAttribute="bottom" id="5dm-Cv-bWZ"/>
-                                            <constraint firstItem="0hc-jF-i08" firstAttribute="top" secondItem="Ery-r8-fPr" secondAttribute="top" id="i0I-Ir-sTZ"/>
-                                            <constraint firstItem="0hc-jF-i08" firstAttribute="leading" secondItem="Ery-r8-fPr" secondAttribute="leading" id="imr-qq-SgG"/>
-                                            <constraint firstAttribute="trailing" secondItem="0hc-jF-i08" secondAttribute="trailing" id="xdq-Pf-RIN"/>
-                                            <constraint firstItem="0hc-jF-i08" firstAttribute="centerY" secondItem="Ery-r8-fPr" secondAttribute="centerY" id="xn5-tv-jTn"/>
+                                            <constraint firstAttribute="bottom" secondItem="U11-IK-9bk" secondAttribute="bottom" id="EHY-CJ-TUL"/>
+                                            <constraint firstItem="U11-IK-9bk" firstAttribute="top" secondItem="Ery-r8-fPr" secondAttribute="top" id="IxT-se-PfR"/>
+                                            <constraint firstItem="U11-IK-9bk" firstAttribute="centerY" secondItem="Ery-r8-fPr" secondAttribute="centerY" id="Sk1-Do-Y8H"/>
+                                            <constraint firstItem="U11-IK-9bk" firstAttribute="leading" secondItem="Ery-r8-fPr" secondAttribute="leading" id="XdM-xF-t5A"/>
+                                            <constraint firstAttribute="trailing" secondItem="U11-IK-9bk" secondAttribute="trailing" id="Xyr-HI-qXS"/>
                                         </constraints>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BlK-ij-0uG">
-                                        <rect key="frame" x="0.0" y="417" width="359" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="301.5" width="359" height="44.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3bS-Bd-Kcv">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="67.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7N-xp-Hox">
-                                                        <rect key="frame" x="0.0" y="0.0" width="46.5" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTI-KK-QcP" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="62.5" y="0.0" width="72.5" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Y0-G7-Kjr" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="72.5" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="3bS-Bd-Kcv" secondAttribute="trailing" id="9yq-eV-5T4"/>
-                                            <constraint firstAttribute="bottom" secondItem="3bS-Bd-Kcv" secondAttribute="bottom" id="BPF-jS-o62"/>
-                                            <constraint firstItem="3bS-Bd-Kcv" firstAttribute="leading" secondItem="BlK-ij-0uG" secondAttribute="leading" id="RSs-d6-Je1"/>
-                                            <constraint firstItem="3bS-Bd-Kcv" firstAttribute="top" secondItem="BlK-ij-0uG" secondAttribute="top" id="kQG-Ev-Njb"/>
-                                            <constraint firstItem="3bS-Bd-Kcv" firstAttribute="centerY" secondItem="BlK-ij-0uG" secondAttribute="centerY" id="sdY-mB-99N"/>
+                                            <constraint firstItem="7Y0-G7-Kjr" firstAttribute="top" secondItem="BlK-ij-0uG" secondAttribute="top" id="0hZ-BK-6Rb"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Y0-G7-Kjr" secondAttribute="trailing" id="2fu-3e-K6W"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Y0-G7-Kjr" secondAttribute="bottom" id="Sev-Og-OAy"/>
+                                            <constraint firstItem="7Y0-G7-Kjr" firstAttribute="centerY" secondItem="BlK-ij-0uG" secondAttribute="centerY" id="WCf-LZ-RVf"/>
+                                            <constraint firstItem="7Y0-G7-Kjr" firstAttribute="leading" secondItem="BlK-ij-0uG" secondAttribute="leading" id="v2n-MB-cqZ"/>
                                         </constraints>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEW-r5-zSa">
-                                        <rect key="frame" x="0.0" y="500.5" width="359" height="67"/>
+                                        <rect key="frame" x="0.0" y="362" width="359" height="44"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5xg-ef-WWM">
-                                                <rect key="frame" x="0.0" y="0.0" width="136" height="67"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzZ-fC-MbQ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="47" height="67"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEc-i4-yN9" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="63" y="0.0" width="73" height="67"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idW-sj-S6S" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="73" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="5xg-ef-WWM" secondAttribute="bottom" id="1GN-vx-Uae"/>
-                                            <constraint firstItem="5xg-ef-WWM" firstAttribute="leading" secondItem="rEW-r5-zSa" secondAttribute="leading" id="XmZ-qw-fIs"/>
-                                            <constraint firstItem="5xg-ef-WWM" firstAttribute="top" secondItem="rEW-r5-zSa" secondAttribute="top" id="gcU-b4-2s9"/>
-                                            <constraint firstAttribute="trailing" secondItem="5xg-ef-WWM" secondAttribute="trailing" id="rXb-f7-aRJ"/>
-                                            <constraint firstItem="5xg-ef-WWM" firstAttribute="centerY" secondItem="rEW-r5-zSa" secondAttribute="centerY" id="yiK-NL-qfy"/>
+                                            <constraint firstAttribute="bottom" secondItem="idW-sj-S6S" secondAttribute="bottom" id="7wv-8Z-Vga"/>
+                                            <constraint firstAttribute="trailing" secondItem="idW-sj-S6S" secondAttribute="trailing" id="9Aw-lo-9Yn"/>
+                                            <constraint firstItem="idW-sj-S6S" firstAttribute="leading" secondItem="rEW-r5-zSa" secondAttribute="leading" id="RGe-Ve-gPA"/>
+                                            <constraint firstItem="idW-sj-S6S" firstAttribute="centerY" secondItem="rEW-r5-zSa" secondAttribute="centerY" id="oh8-oS-zg9"/>
+                                            <constraint firstItem="idW-sj-S6S" firstAttribute="top" secondItem="rEW-r5-zSa" secondAttribute="top" id="xyd-SL-aDe"/>
                                         </constraints>
                                     </scrollView>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xze-T1-Ts9">
-                                        <rect key="frame" x="0.0" y="583.5" width="359" height="67.5"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7eV-bE-Ubl">
+                                        <rect key="frame" x="0.0" y="422" width="359" height="44.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="wPf-uK-uUW">
-                                                <rect key="frame" x="0.0" y="0.0" width="134.5" height="67.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjN-b1-DPi">
-                                                        <rect key="frame" x="0.0" y="0.0" width="47" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAu-g9-rfL" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                        <rect key="frame" x="63" y="0.0" width="71.5" height="67.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6j-0M-p2V" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="72.5" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="wPf-uK-uUW" firstAttribute="leading" secondItem="xze-T1-Ts9" secondAttribute="leading" id="4Re-fQ-gfQ"/>
-                                            <constraint firstItem="wPf-uK-uUW" firstAttribute="centerY" secondItem="xze-T1-Ts9" secondAttribute="centerY" id="QhS-lx-1ZY"/>
-                                            <constraint firstAttribute="trailing" secondItem="wPf-uK-uUW" secondAttribute="trailing" id="Rrm-86-CcT"/>
-                                            <constraint firstItem="wPf-uK-uUW" firstAttribute="top" secondItem="xze-T1-Ts9" secondAttribute="top" id="lM4-F2-zRO"/>
-                                            <constraint firstAttribute="bottom" secondItem="wPf-uK-uUW" secondAttribute="bottom" id="llV-bP-roK"/>
+                                            <constraint firstAttribute="trailing" secondItem="p6j-0M-p2V" secondAttribute="trailing" id="4Sf-EE-xbX"/>
+                                            <constraint firstItem="p6j-0M-p2V" firstAttribute="leading" secondItem="7eV-bE-Ubl" secondAttribute="leading" id="I0u-OE-Mt8"/>
+                                            <constraint firstAttribute="bottom" secondItem="p6j-0M-p2V" secondAttribute="bottom" id="QPc-j0-UWz"/>
+                                            <constraint firstItem="p6j-0M-p2V" firstAttribute="centerY" secondItem="7eV-bE-Ubl" secondAttribute="centerY" id="pBQ-id-ekh"/>
+                                            <constraint firstItem="p6j-0M-p2V" firstAttribute="top" secondItem="7eV-bE-Ubl" secondAttribute="top" id="rLT-Hz-cOS"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-vR-w6a">
+                                        <rect key="frame" x="0.0" y="482.5" width="359" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pS4-dQ-a1y" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="73" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="pS4-dQ-a1y" secondAttribute="trailing" id="EEn-HJ-zzq"/>
+                                            <constraint firstAttribute="bottom" secondItem="pS4-dQ-a1y" secondAttribute="bottom" id="HYM-mO-kf3"/>
+                                            <constraint firstItem="pS4-dQ-a1y" firstAttribute="leading" secondItem="NAU-vR-w6a" secondAttribute="leading" id="PJi-JQ-HZN"/>
+                                            <constraint firstItem="pS4-dQ-a1y" firstAttribute="top" secondItem="NAU-vR-w6a" secondAttribute="top" id="af3-10-mud"/>
+                                            <constraint firstItem="pS4-dQ-a1y" firstAttribute="centerY" secondItem="NAU-vR-w6a" secondAttribute="centerY" id="xiG-N1-zzN"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zyq-fa-Iqa">
+                                        <rect key="frame" x="0.0" y="542.5" width="359" height="44.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfP-wx-buA" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="71.5" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="RfP-wx-buA" firstAttribute="centerY" secondItem="Zyq-fa-Iqa" secondAttribute="centerY" id="0gb-wA-r6v"/>
+                                            <constraint firstItem="RfP-wx-buA" firstAttribute="top" secondItem="Zyq-fa-Iqa" secondAttribute="top" id="INT-jv-Nbb"/>
+                                            <constraint firstAttribute="bottom" secondItem="RfP-wx-buA" secondAttribute="bottom" id="Osn-eP-ftT"/>
+                                            <constraint firstAttribute="trailing" secondItem="RfP-wx-buA" secondAttribute="trailing" id="duM-zH-7JE"/>
+                                            <constraint firstItem="RfP-wx-buA" firstAttribute="leading" secondItem="Zyq-fa-Iqa" secondAttribute="leading" id="lMI-J2-6fM"/>
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="4K0-DD-UuO" firstAttribute="width" secondItem="kON-Fy-Fsw" secondAttribute="width" id="C75-lA-d0Z"/>
-                                    <constraint firstItem="ZzZ-fC-MbQ" firstAttribute="width" secondItem="gjN-b1-DPi" secondAttribute="width" id="G1r-bU-4F2"/>
-                                    <constraint firstItem="g7N-xp-Hox" firstAttribute="width" secondItem="ZzZ-fC-MbQ" secondAttribute="width" id="dJs-7K-Lue"/>
-                                    <constraint firstItem="7VJ-dY-j09" firstAttribute="width" secondItem="MOC-On-201" secondAttribute="width" id="gNB-EF-5IK"/>
-                                    <constraint firstItem="Uux-eo-CCm" firstAttribute="width" secondItem="4K0-DD-UuO" secondAttribute="width" id="l0z-6B-8fZ"/>
-                                    <constraint firstItem="kON-Fy-Fsw" firstAttribute="width" secondItem="7VJ-dY-j09" secondAttribute="width" id="lQO-wE-eyZ"/>
-                                    <constraint firstItem="MOC-On-201" firstAttribute="width" secondItem="g7N-xp-Hox" secondAttribute="width" id="yi4-ij-ThH"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -659,7 +598,7 @@
                             <constraint firstItem="1d0-Ef-voL" firstAttribute="trailing" secondItem="9Oj-ti-AwB" secondAttribute="trailing" id="Dqz-mb-XGu"/>
                             <constraint firstItem="9Oj-ti-AwB" firstAttribute="bottom" secondItem="5yK-H9-sEd" secondAttribute="bottom" constant="8" id="Rh1-TN-D0v"/>
                             <constraint firstItem="9Oj-ti-AwB" firstAttribute="bottom" secondItem="1d0-Ef-voL" secondAttribute="bottom" id="Twa-Kv-kjS"/>
-                            <constraint firstItem="5yK-H9-sEd" firstAttribute="top" secondItem="tiG-48-8lE" secondAttribute="top" constant="8" id="Xau-Up-22L"/>
+                            <constraint firstItem="5yK-H9-sEd" firstAttribute="top" secondItem="9Oj-ti-AwB" secondAttribute="top" constant="8" id="Xau-Up-22L"/>
                             <constraint firstItem="5yK-H9-sEd" firstAttribute="leading" secondItem="9Oj-ti-AwB" secondAttribute="leading" constant="8" id="jPF-F3-mzc"/>
                             <constraint firstItem="1d0-Ef-voL" firstAttribute="leading" secondItem="9Oj-ti-AwB" secondAttribute="leading" id="rzn-VZ-xQu"/>
                             <constraint firstItem="9Oj-ti-AwB" firstAttribute="trailing" secondItem="5yK-H9-sEd" secondAttribute="trailing" constant="8" id="xHs-Hz-Chc"/>
@@ -667,22 +606,16 @@
                         <viewLayoutGuide key="safeArea" id="9Oj-ti-AwB"/>
                     </view>
                     <connections>
-                        <outlet property="formula0" destination="CoL-Sg-iM4" id="q6B-3R-awI"/>
-                        <outlet property="formula1" destination="fuu-A0-EQu" id="cdt-If-CnW"/>
-                        <outlet property="formula2" destination="YWL-8e-Izm" id="aFz-Q9-yUO"/>
-                        <outlet property="formula3" destination="VDa-86-aeq" id="PAW-uz-kOs"/>
-                        <outlet property="formula4" destination="zOg-Gu-drL" id="663-eI-2qV"/>
-                        <outlet property="formula5" destination="vTI-KK-QcP" id="bW1-E7-gIQ"/>
-                        <outlet property="formula6" destination="dEc-i4-yN9" id="Ujw-wL-14v"/>
-                        <outlet property="formula7" destination="FAu-g9-rfL" id="zjX-oH-YyN"/>
-                        <outlet property="label0" destination="Uux-eo-CCm" id="28X-nO-p7O"/>
-                        <outlet property="label1" destination="4K0-DD-UuO" id="xGt-dY-Keg"/>
-                        <outlet property="label2" destination="kON-Fy-Fsw" id="f8c-Vt-F13"/>
-                        <outlet property="label3" destination="7VJ-dY-j09" id="6Qz-bX-fmU"/>
-                        <outlet property="label4" destination="MOC-On-201" id="WV1-Fe-Q90"/>
-                        <outlet property="label5" destination="g7N-xp-Hox" id="eAa-Z2-DMe"/>
-                        <outlet property="label6" destination="ZzZ-fC-MbQ" id="A7C-Uy-dbC"/>
-                        <outlet property="label7" destination="gjN-b1-DPi" id="gy4-Vn-LOt"/>
+                        <outlet property="formula0" destination="Gqq-Xy-YdQ" id="hSP-fO-4dn"/>
+                        <outlet property="formula1" destination="9Dt-6z-43z" id="IZw-9w-zcV"/>
+                        <outlet property="formula2" destination="U11-IK-9bk" id="Pct-kz-rIj"/>
+                        <outlet property="formula3" destination="7Y0-G7-Kjr" id="Iff-LZ-LGW"/>
+                        <outlet property="formula4" destination="idW-sj-S6S" id="FmG-Jo-nBu"/>
+                        <outlet property="formula5" destination="p6j-0M-p2V" id="xte-VX-dnF"/>
+                        <outlet property="formula6" destination="pS4-dQ-a1y" id="pgT-n3-FOl"/>
+                        <outlet property="formula7" destination="RfP-wx-buA" id="Jbj-z1-1sY"/>
+                        <outlet property="label0" destination="vf1-VE-nup" id="kqq-gU-B72"/>
+                        <outlet property="label1" destination="eAX-lf-7uu" id="yML-pa-b8i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gD-BW-YdI" userLabel="First Responder" sceneMemberID="firstResponder"/>

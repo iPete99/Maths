@@ -37,6 +37,17 @@ extension UIViewController {
         }
     }
     
+    func customizeDesprictionTextViews (_ textViews: [UITextView?], descriptionTextViews: [Int: String]) {
+        
+        let fontSize = GeneralSettings.descriptionLabelFontSize
+        let fontName = GeneralSettings.descriptionLabelFontName
+        
+        for i in 0...textViews.count - 1 {
+            textViews[i]?.font = UIFont(name: fontName, size: fontSize)
+            textViews[i]?.text = descriptionTextViews[i]
+        }
+    }
+    
     func customizeFormulas (_ formulas: [MathLabel?], formulaLabels: [Int: String]) {
         
         for i in 0...formulas.count - 1 {

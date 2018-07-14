@@ -40,8 +40,6 @@ class ExponentRulesViewController: UIViewController{
         
         self.title = self.basicItemStore.rows[0]
         
-        self.label0.font.withSize(10)
-
         let labels = [self.label0, self.label1, self.label2,
                       self.label3, self.label4, self.label5,
                       self.label6, self.label7
