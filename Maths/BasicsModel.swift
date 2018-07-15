@@ -69,7 +69,7 @@ struct BinomialCoefficientLabel {
     
     let descriptionLabels = [
         0: "For two integers the binomial coefficient is",
-        1: "The properties of the binomial coefficient are",
+        1: "Properties of the binomial coefficient",
     ]
     
     let formulaLabels = [
@@ -77,9 +77,18 @@ struct BinomialCoefficientLabel {
         1: "\\binom{n}{k} \\geq 1 \\text{ for } n \\geq k, \\text{ else } \\binom{n}{k} = 0",
         2: "\\binom{n}{0} = 1 = \\binom{n}{n}",
         3: "\\binom{n}{1} = n = \\binom{n}{n - 1}",
-        4: "\\binom{n}{k} = \\frac{n - k + 1}{k} \\binom{n}{k - 1}",
-        5: "\\binom{n}{k} = \\frac{n}{k} \\binom{n - 1}{k - 1}",
-        6: "\\binom{n + 1}{k + 1} = \\binom{n}{k} + \\binom{n}{k + 1}",
-        7: "\\binom{n}{k} = \\binom{n}{n - k}"
+        4: "\\binom{n}{k} = \\frac{n}{k} \\binom{n - 1}{k - 1}",
+        5: "\\binom{n + 1}{k + 1} = \\binom{n}{k} + \\binom{n}{k + 1}",
+        6: "\\binom{n}{k} = \\binom{n}{n - k}"
+    ]
+    
+    let calcDescriptionLabels = [
+        0: "Calculate it! "
+    ]
+    
+    let calcFormulaLabels = [
+        0: "n = ",
+        1: "k = ",
+        2: "\\binom{n}{k} = "
     ]
 }
