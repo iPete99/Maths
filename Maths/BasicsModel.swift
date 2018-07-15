@@ -69,7 +69,7 @@ struct BinomialCoefficientLabel {
     
     let descriptionLabels = [
         0: "For two integers the binomial coefficient is",
-        1: "The binomial coefficient has the following properties",
+        1: "The properties of the binomial coefficient are",
     ]
     
     let formulaLabels = [
