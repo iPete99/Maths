@@ -12,7 +12,7 @@ import iosMath
 
 class ExponentRulesViewController: UIViewController{
     
-    let exponentModel = ExponentLabel()
+    let exponentModel = ExponentModel()
     let basicItemStore = BasicsItemStore()
     
     // label outlets

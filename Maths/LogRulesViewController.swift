@@ -10,7 +10,7 @@ import UIKit
 
 class LogRulesViewController: UIViewController {
     
-    let logModel = LogLabel()
+    let logModel = LogModel()
     let basicItemStore = BasicsItemStore()
     
     // label outlets

@@ -480,47 +480,64 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="u6h-HT-OnQ">
                                                         <rect key="frame" x="0.0" y="120" width="359" height="51.5"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CalcLabel0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1g-wN-OtH">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="CalcLabel0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1g-wN-OtH">
                                                                 <rect key="frame" x="0.0" y="0.0" width="86" height="51.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" red="0.5245673656463623" green="0.088385246694087982" blue="0.16225287318229675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="CalcLabel1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-JR-Mb4" userLabel="CalcFormula0" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                                <rect key="frame" x="94" y="0.0" width="83" height="51.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="CalcFormula0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-JR-Mb4" userLabel="CalcFormula0" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                                <rect key="frame" x="94" y="0.0" width="106.5" height="51.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sy9-lz-TQj" userLabel="Round Style Text Field 0">
-                                                                <rect key="frame" x="185" y="0.0" width="36.5" height="51.5"/>
+                                                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter n" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sy9-lz-TQj" userLabel="Text Field N">
+                                                                <rect key="frame" x="208.5" y="0.0" width="16" height="51.5"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                <connections>
+                                                                    <action selector="textFieldNChanged:" destination="N19-Vt-6Lw" eventType="editingChanged" id="vDD-wP-pAA"/>
+                                                                </connections>
                                                             </textField>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="CalcLabel2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxi-U9-WBp" userLabel="CalcFormula1" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
-                                                                <rect key="frame" x="229.5" y="0.0" width="85.5" height="51.5"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="CalcFormula1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxi-U9-WBp" userLabel="CalcFormula1" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                                <rect key="frame" x="232.5" y="0.0" width="103" height="51.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kOD-EQ-cxp" userLabel="Round Style Text Field 1">
-                                                                <rect key="frame" x="323" y="0.0" width="36" height="51.5"/>
+                                                            <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="enter k" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kOD-EQ-cxp" userLabel="Text Field K">
+                                                                <rect key="frame" x="343.5" y="0.0" width="15.5" height="51.5"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                <connections>
+                                                                    <action selector="textFieldKChanged:" destination="N19-Vt-6Lw" eventType="editingChanged" id="SZU-zu-Ue2"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                         <constraints>
                                                             <constraint firstItem="sy9-lz-TQj" firstAttribute="width" secondItem="kOD-EQ-cxp" secondAttribute="width" id="qTn-WZ-Ywj"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="CalcLabel3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJ1-9d-rcN" userLabel="CalcFormula2" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hec-si-7AE">
                                                         <rect key="frame" x="0.0" y="179.5" width="359" height="52"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CalcFormula2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJ1-9d-rcN" userLabel="CalcFormula2" customClass="MathLabel" customModule="Maths" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="106" height="52"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qe-yy-qls" userLabel="Result">
+                                                                <rect key="frame" x="114" y="0.0" width="245" height="52"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
                                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SHJ-7U-pkd">
                                                         <rect key="frame" x="0.0" y="239.5" width="359" height="52"/>
                                                         <subviews>
@@ -648,6 +665,9 @@
                                                         </constraints>
                                                     </scrollView>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="D1g-wN-OtH" firstAttribute="leading" secondItem="Gqq-Xy-YdQ" secondAttribute="leading" id="UaO-eN-e8f"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <constraints>
@@ -667,6 +687,7 @@
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="1d0-Ef-voL" firstAttribute="top" secondItem="9Oj-ti-AwB" secondAttribute="top" id="1y8-Tl-iXJ"/>
                             <constraint firstItem="9Oj-ti-AwB" firstAttribute="trailing" secondItem="TsX-VB-PMm" secondAttribute="trailing" id="BNW-Np-RkN"/>
@@ -681,6 +702,9 @@
                             <constraint firstItem="1d0-Ef-voL" firstAttribute="leading" secondItem="9Oj-ti-AwB" secondAttribute="leading" id="rzn-VZ-xQu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Oj-ti-AwB"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="xxF-7J-Eec" appends="YES" id="gdo-8M-OFH"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="calcFormula0" destination="w4n-JR-Mb4" id="iwF-qk-Lm9"/>
@@ -696,9 +720,17 @@
                         <outlet property="formula6" destination="pS4-dQ-a1y" id="WMX-o4-d68"/>
                         <outlet property="label0" destination="vf1-VE-nup" id="kqq-gU-B72"/>
                         <outlet property="label1" destination="eAX-lf-7uu" id="yML-pa-b8i"/>
+                        <outlet property="result" destination="4qe-yy-qls" id="tE3-e8-R4r"/>
+                        <outlet property="textFieldK" destination="kOD-EQ-cxp" id="Ydf-Vz-QN8"/>
+                        <outlet property="textFieldN" destination="sy9-lz-TQj" id="T6Y-yu-tc7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gD-BW-YdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="xxF-7J-Eec">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="N19-Vt-6Lw" id="sUT-f9-3ix"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1486" y="106"/>
         </scene>

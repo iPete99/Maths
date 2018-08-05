@@ -15,7 +15,7 @@ struct GeneralSettings {
     static let descriptionLabelFontName = "Noteworthy"
 }
 
-struct ExponentLabel {
+struct ExponentModel {
     
     let descriptionLabels = [
         0: "Multiplication",
@@ -40,7 +40,7 @@ struct ExponentLabel {
     ]
 }
 
-struct LogLabel {
+struct LogModel {
     
     let descriptionLabels = [
         0: "Multiplication",
@@ -65,7 +65,7 @@ struct LogLabel {
     ]
 }
 
-struct BinomialCoefficientLabel {
+struct BinomialCoefficientModel {
     
     let descriptionLabels = [
         0: "For two integers the binomial coefficient is",
@@ -91,4 +91,32 @@ struct BinomialCoefficientLabel {
         1: "k = ",
         2: "\\binom{n}{k} = "
     ]
+    
+    func updateResultLabel(nText: String?, kText: String?) -> String {
+        let invalidInputMessage = "invalid input"
+        let overflowMessage = invalidInputMessage + " (overflow)"
+        
+        // invalid input of any kind
+        guard let nString = nText else { return invalidInputMessage }
+        guard let kString = kText else { return invalidInputMessage }
+        
+        // no invalid message when n or k empty
+        if nString.isEmpty || kString.isEmpty {
+            return ""
+        }
+        
+        // String can't be converted to Int
+        guard let n = Int(nString) else { return invalidInputMessage }
+        guard let k = Int(kString) else { return invalidInputMessage }
+        
+        if let binomialCoefficient = n.choose(k) {
+            if binomialCoefficient >= 0 {
+                return binomialCoefficient.formattedWithSpaceSeparator
+            } else {
+                return overflowMessage
+            }
+        } else {
+            return invalidInputMessage
+        }
+    }
 }

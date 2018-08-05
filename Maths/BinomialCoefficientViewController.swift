@@ -10,8 +10,26 @@ import UIKit
 
 class BinomialCoefficientViewController: UIViewController {
     
-    let binomialCoefficientModel = BinomialCoefficientLabel()
+    let binomialCoefficientModel = BinomialCoefficientModel()
     let basicItemStore = BasicsItemStore()
+    
+    @IBAction func textFieldNChanged(_ sender: UITextField) {
+        let kText = self.textFieldK.text
+        let nText = sender.text
+        
+        self.result.text = self.binomialCoefficientModel.updateResultLabel(nText: nText, kText: kText)
+    }
+    
+    @IBAction func textFieldKChanged(_ sender: UITextField) {
+        let nText = self.textFieldN.text
+        let kText = sender.text
+        
+        self.result.text = self.binomialCoefficientModel.updateResultLabel(nText: nText, kText: kText)
+    }
+    
+    //text field outlets
+    @IBOutlet var textFieldN: UITextField!
+    @IBOutlet var textFieldK: UITextField!
     
     // label outlets
     @IBOutlet var label0: UILabel!
@@ -30,10 +48,19 @@ class BinomialCoefficientViewController: UIViewController {
     @IBOutlet var calcFormula0: MathLabel!
     @IBOutlet var calcFormula1: MathLabel!
     @IBOutlet var calcFormula2: MathLabel!
- 
+    @IBOutlet var result: UILabel!
+    
+    // action outlets
+    @IBAction func dismissKeyboard(_ sender: UITapGestureRecognizer) {
+        self.textFieldN.resignFirstResponder()
+        self.textFieldK.resignFirstResponder()
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.result.text = ""
         
         self.title = self.basicItemStore.rows[2]
                 

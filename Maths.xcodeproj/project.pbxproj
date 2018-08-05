@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A79195CD3DB7BFADF9DD9CE /* Pods_Maths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */; };
+		C14DB49B2115C0B000E32CEF /* Int+Formatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14DB49A2115C0B000E32CEF /* Int+Formatter+Extension.swift */; };
 		C1A299B520D52578007CE71C /* BasicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A299B420D52578007CE71C /* BasicsModel.swift */; };
 		C1AF458420D69048000CE1E4 /* MathLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF458320D69048000CE1E4 /* MathLabel.swift */; };
 		C1AF458620DE9E50000CE1E4 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF458520DE9E4F000CE1E4 /* UIViewControllerExtension.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		09A5BF9AAEE853836154DA93 /* Pods_Maths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14DB49A2115C0B000E32CEF /* Int+Formatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Formatter+Extension.swift"; sourceTree = "<group>"; };
 		C1A299B420D52578007CE71C /* BasicsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsModel.swift; sourceTree = "<group>"; };
 		C1AF458320D69048000CE1E4 /* MathLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLabel.swift; sourceTree = "<group>"; };
 		C1AF458520DE9E4F000CE1E4 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -116,6 +118,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C14DB4992115C01100E32CEF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2B20420C844B900C1D89B /* CGFloat+Extensions.swift */,
+				C1AF458520DE9E4F000CE1E4 /* UIViewControllerExtension.swift */,
+				C14DB49A2115C0B000E32CEF /* Int+Formatter+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C1C2B1C820C840E000C1D89B = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +153,7 @@
 		C1C2B1D320C840E000C1D89B /* Maths */ = {
 			isa = PBXGroup;
 			children = (
-				C1C2B20420C844B900C1D89B /* CGFloat+Extensions.swift */,
-				C1AF458520DE9E4F000CE1E4 /* UIViewControllerExtension.swift */,
+				C14DB4992115C01100E32CEF /* Helpers */,
 				C1C2B1D420C840E000C1D89B /* AppDelegate.swift */,
 				C1C2B1D620C840E000C1D89B /* StartViewController.swift */,
 				C1C2B20620C8477400C1D89B /* BasicsViewController.swift */,
@@ -358,6 +369,7 @@
 				C1C2B1D720C840E000C1D89B /* StartViewController.swift in Sources */,
 				C1A299B520D52578007CE71C /* BasicsModel.swift in Sources */,
 				C1AF458420D69048000CE1E4 /* MathLabel.swift in Sources */,
+				C14DB49B2115C0B000E32CEF /* Int+Formatter+Extension.swift in Sources */,
 				C1C2B25220CD70A400C1D89B /* BinomialCoefficientViewController.swift in Sources */,
 				C1AF458620DE9E50000CE1E4 /* UIViewControllerExtension.swift in Sources */,
 				C1C2B20520C844B900C1D89B /* CGFloat+Extensions.swift in Sources */,
